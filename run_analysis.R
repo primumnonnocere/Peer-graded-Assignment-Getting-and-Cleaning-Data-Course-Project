@@ -46,4 +46,4 @@ alldata_namechanges<- gsub("^f", "frequency", alldata_namechanges)
 
 ##Part 5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 Tidy_Dataset <- alldata_c %>% group_by(subjectid, activity) %>% summarize_all(list(mean)) 
-write.csv(Tidy_Dataset, "C:\\R Studio\\Peer-graded-Assignment-Getting-and-Cleaning-Data-Course-Project\\Tidy Dataset.csv")
+write.table(Tidy_Dataset, "C:\\R Studio\\Peer-graded-Assignment-Getting-and-Cleaning-Data-Course-Project\\Tidy Dataset.csv", row.name=FALSE)
