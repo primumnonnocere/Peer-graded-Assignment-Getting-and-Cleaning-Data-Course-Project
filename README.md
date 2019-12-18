@@ -3,6 +3,7 @@
 This repository is designed for an assignment for the "Getting and Cleaning Data" course, part of the "Data Science" specialization offered by Johns Hopkins University at Coursera.
 
 The dataset can be downloaded at the following URL: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 More information about the data can be found here:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
 
