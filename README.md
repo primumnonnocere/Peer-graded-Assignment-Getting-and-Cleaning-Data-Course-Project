@@ -7,7 +7,7 @@ The dataset can be downloaded at the following URL: https://d396qusza40orc.cloud
 More information about the data can be found here:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
 
-##Files
+### Files
 The files that can be found within this Repo are as follows:  
 
 1. README.md - this document  
